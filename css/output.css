@@ -190,11 +190,47 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+  .mt-\[-67px\] {
+    margin-top: -67px;
+  }
+  .mt-\[-80px\] {
+    margin-top: -80px;
+  }
+  .mt-\[-100px\] {
+    margin-top: -100px;
+  }
+  .mt-\[6px\] {
+    margin-top: 6px;
+  }
   .mt-\[48px\] {
     margin-top: 48px;
   }
+  .mt-\[64px\] {
+    margin-top: 64px;
+  }
+  .mt-\[640px\] {
+    margin-top: 640px;
+  }
+  .mt-\[px\] {
+    margin-top: px;
+  }
+  .ml-\[1px\] {
+    margin-left: 1px;
+  }
+  .ml-\[45px\] {
+    margin-left: 45px;
+  }
+  .ml-\[80px\] {
+    margin-left: 80px;
+  }
   .ml-\[333px\] {
     margin-left: 333px;
+  }
+  .ml-\[445px\] {
+    margin-left: 445px;
   }
   .flex {
     display: flex;
@@ -223,8 +259,14 @@
   .resize {
     resize: both;
   }
+  .justify-center {
+    justify-content: center;
+  }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
   }
   .rounded-\[8px\] {
     border-radius: 8px;
@@ -269,6 +311,9 @@
   .py-\[27px\] {
     padding-block: 27px;
   }
+  .pt-\[4px\] {
+    padding-top: 4px;
+  }
   .pt-\[18px\] {
     padding-top: 18px;
   }
@@ -284,6 +329,9 @@
   .pt-\[64px\] {
     padding-top: 64px;
   }
+  .pt-\[80px\] {
+    padding-top: 80px;
+  }
   .pt-\[291px\] {
     padding-top: 291px;
   }
@@ -292,6 +340,9 @@
   }
   .pr-\[337px\] {
     padding-right: 337px;
+  }
+  .pl-\[1px\] {
+    padding-left: 1px;
   }
   .pl-\[8px\] {
     padding-left: 8px;
@@ -302,11 +353,20 @@
   .pl-\[33px\] {
     padding-left: 33px;
   }
+  .pl-\[45px\] {
+    padding-left: 45px;
+  }
   .pl-\[80px\] {
     padding-left: 80px;
   }
   .pl-\[84px\] {
     padding-left: 84px;
+  }
+  .pl-\[100px\] {
+    padding-left: 100px;
+  }
+  .pl-\[200px\] {
+    padding-left: 200px;
   }
   .pl-\[300px\] {
     padding-left: 300px;
@@ -316,6 +376,12 @@
   }
   .pl-\[337px\] {
     padding-left: 337px;
+  }
+  .pl-\[400px\] {
+    padding-left: 400px;
+  }
+  .pl-\[440px\] {
+    padding-left: 440px;
   }
   .pl-\[445px\] {
     padding-left: 445px;
