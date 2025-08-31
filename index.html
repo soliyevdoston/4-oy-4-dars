@@ -6,21 +6,61 @@
     <link rel="stylesheet" href="css/output.css" />
     <title>Don don ziki</title>
   </head>
-  <body>
+  <body class="bg-[#131537] w-[1368px] mx-auto">
+    <div class="pl-[333px] pt-[48px]">
+      <div
+        class="w-[700px] h-[150px] border border-[#565468] rounded-[8px] flex"
+      >
+        <img class="py-[27px] pl-[33px]" src="images/tipa-logo.svg" alt="" />
+        <img
+          class="py-[18px] pr-[24px] pl-[337px]"
+          src="images/Rectangle.png"
+          alt=""
+        />
+      </div>
+    </div>
+
     <!-- Game zone -->
     <section id="gameZone">
       <div class="flex gap-5">
-        <img class="hand" src="images/paper.svg" alt="paper" />
-        <img class="hand" src="images/rock.svg" alt="rock" />
-        <img class="hand" src="images/scissors.svg" alt="scissors" />
+        <div>
+          <img
+            class="hand pl-[445px] pt-[64px]"
+            src="images/paper.svg"
+            alt="paper"
+          />
+          <img
+            class="hand pl-[px] pt-[24px]"
+            src="images/scissors.svg"
+            alt="scissors"
+          />
+        </div>
+
+        <img
+          class="hand pl-[480px] pt-[64px]"
+          src="images/rock.svg"
+          alt="rock"
+        />
       </div>
     </section>
     <!-- Process zone -->
     <section class="hidden flex relative" id="processZone">
       <p class="font-bold absolute top-5 left-1/2" id="status"></p>
-      <img id="player" src="images/oval.svg" alt="player" />
+      <img
+        id="player"
+        src="images/oval.svg"
+        alt="player"
+        width="198px"
+        height="203px"
+      />
       <button id="refreshGame" class="p-4 bg-red-500">Refresh game</button>
-      <img id="ai" src="images/oval.svg" alt="ai" />
+      <img
+        id="ai"
+        src="images/oval.svg"
+        alt="ai"
+        width="198px"
+        height="203px"
+      />
     </section>
     <script src="js/app.js" type="module"></script>
   </body>
