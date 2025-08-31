@@ -1,3 +1,4 @@
+import { mode } from "./mode.js";
 import {
   elAi,
   elHands,
