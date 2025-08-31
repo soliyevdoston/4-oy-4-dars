@@ -5,4 +5,4 @@ export const { rock, paper, scissors, spock, lizard } = {
   lizard: "lizard",
   spock: "spock",
 };
-export const hands = { rock, paper, scissors, spock, lizard };
+export const hands = [rock, paper, scissors, spock, lizard];
