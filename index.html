@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/output.css" />
+    <title>Don don ziki</title>
+  </head>
+  <body>
+    <!-- Game zone -->
+    <section id="gameZone">
+      <p class="font-bold absolute top-5 left-4/2" id="status"></p>
+      <div>
+        <img class="hand" src="images/paper.svg" alt="paper" />
+        <img class="hand" src="images/rock.svg" alt="rock" />
+        <img class="hand" src="images/scissors.svg" alt="scissors" />
+      </div>
+    </section>
+    <!-- Process zone -->
+    <section class="hidden" id="processZone">
+      <img id="player" src="images/oval.svg" alt="player" />
+      <button id="refreshGame" class="p-4 bg-red-500">Refresh game</button>
+      <img id="ai" src="images/oval.svg" alt="ai" />
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
