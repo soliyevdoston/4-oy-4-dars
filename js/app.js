@@ -11,6 +11,9 @@ import { refreshGame } from "./refresh-game.js";
 import { aiChoose } from "./ai-choose.js";
 import { checkWinner } from "./check-winner.js";
 import { updateScore } from "./score.js";
+import { getScore } from "./score.js";
+// ...existing code...
+document.getElementById("score").innerText = getScore();
 elHands.forEach((hand) => {
   hand.addEventListener("click", (evt) => {
     const player = evt.target.alt;
